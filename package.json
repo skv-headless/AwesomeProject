@@ -1,0 +1,12 @@
+{
+  "name": "ExampleProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "15.4.1",
+    "react-native": "facebook/react-native#1b694f43bae3f7e504e0ed1acd1fafa1fce1afa8"
+  }
+}
