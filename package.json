@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "react": "15.4.1",
-    "react-native": "facebook/react-native#1b694f43bae3f7e504e0ed1acd1fafa1fce1afa8"
+    "react-native": "facebook/react-native#1b694f43bae3f7e504e0ed1acd1fafa1fce1afa8",
+    "bugsnag-react-native": "^1.2.0"
   }
 }

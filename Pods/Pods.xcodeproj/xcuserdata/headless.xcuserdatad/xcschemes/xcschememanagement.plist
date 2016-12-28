@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BugsnagReactNative.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ExampleProject.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>404F3CEAB3FAFED23E2CEAA371462287</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>68C687EA36F3046BA543C1E172B9BACA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8A174C7A17E0A1071542FFB22C066D54</key>
+		<key>94F54C7AFA5059C87D232E8981CEAB78</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>CD010148FDD027D2F5FB916F2C48F174</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E201A45ABE0A5F578CE6787A456D2D9D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC1F678F9091FDB752221F822C1A62BE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

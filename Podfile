@@ -13,6 +13,8 @@ target 'ExampleProject' do
     # Add any other subspecs you want to use in your project
   ]
 
+	pod 'BugsnagReactNative', :path => './node_modules/bugsnag-react-native'
+
   target 'ExampleProjectTests' do
     inherit! :search_paths
     # Pods for testing

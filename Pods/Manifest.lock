@@ -1,4 +1,11 @@
 PODS:
+  - BugsnagReactNative (1.2.0):
+    - BugsnagReactNative/Core (= 1.2.0)
+    - React
+  - BugsnagReactNative/Core (1.2.0):
+    - React
+  - React (1000.0.0):
+    - React/Core (= 1000.0.0)
   - React/Core (1000.0.0):
     - React/cxxreact
     - React/yoga
@@ -14,18 +21,22 @@ PODS:
   - React/yoga (1000.0.0)
 
 DEPENDENCIES:
+  - BugsnagReactNative (from `./node_modules/bugsnag-react-native`)
   - React/Core (from `./node_modules/react-native`)
   - React/RCTNetwork (from `./node_modules/react-native`)
   - React/RCTText (from `./node_modules/react-native`)
   - React/RCTWebSocket (from `./node_modules/react-native`)
 
 EXTERNAL SOURCES:
+  BugsnagReactNative:
+    :path: "./node_modules/bugsnag-react-native"
   React:
     :path: "./node_modules/react-native"
 
 SPEC CHECKSUMS:
+  BugsnagReactNative: f16698c7fda0473bc4228f83dfa580abdee4e25f
   React: d8f55b4dadfd61e5ac0c3d135853230d9985df74
 
-PODFILE CHECKSUM: c02f9b21b86f6574e3f93a1a9cf4dbcd10818854
+PODFILE CHECKSUM: aa2fe420cd5b75fa0e348e9b9a3d3a3c410c3481
 
 COCOAPODS: 1.1.1
