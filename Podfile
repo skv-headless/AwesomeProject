@@ -10,8 +10,10 @@ target 'ExampleProject' do
     'RCTText',
     'RCTNetwork',
     'RCTWebSocket', # needed for debugging
+    'RCTAnimation',
     # Add any other subspecs you want to use in your project
   ]
+  pod 'Yoga', :path => './node_modules/react-native/ReactCommon/yoga'
 
   target 'ExampleProjectTests' do
     inherit! :search_paths
